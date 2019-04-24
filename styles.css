@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+
+  
+body{
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+img { 
+  max-width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.Konten {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+  }
+
+.personal_text h6 {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: #222222; }
+.personal_text h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #222222; }
+.personal_text h3 {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #222222; }
+.personal_text p {
+  font-family: "Roboto", sans-serif;
+  max-width: 540px;
+  color: #777777;
+  margin-bottom: 40px; }
+.personal_text .basic_info li {
+  margin-bottom: 15px; }
+  .personal_text .basic_info li a {
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #777777; }
+    .personal_text .basic_info li a i {
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      color: #766dff; }
